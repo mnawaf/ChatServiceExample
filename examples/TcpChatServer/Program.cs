@@ -99,7 +99,7 @@ namespace TcpChatServer
         static void Main(string[] args)
         {
             // TCP server port
-            int port = 8443;
+            int port = 1111;
             if (args.Length > 0)
                 port = int.Parse(args[0]);
 
